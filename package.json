@@ -1,0 +1,18 @@
+{
+  "name": "dnd-codebinder-backend",
+  "version": "0.0.0",
+  "description": "Express Server to manage DND codebinders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eli Greene",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.5.0",
+    "chance": "^1.1.4",
+    "express": "^4.17.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
